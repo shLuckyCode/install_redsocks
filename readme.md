@@ -42,3 +42,8 @@ source ~/.bashrc
 ```
 
 
+
+```
+start_proxy #开启全局代理
+stop_proxy  #关闭全局代理
+```
