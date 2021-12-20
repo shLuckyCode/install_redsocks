@@ -1,4 +1,4 @@
-# == install and config redsocks==
+# install and config redsocks
 ```
 mkdir ~/proxy
 cd ~/proxy
@@ -20,11 +20,19 @@ sudo ./setup.sh
 ## 添加快捷命令启动
 ```
 vim ~/.zshrc
+```
 
-增加以下内容
+### 增加以下内容
+```
 alias start_proxy="sudo bash ~/proxy/install_redsocks/iptables.sh start"
 alias stop_proxy="sudo bash ~/proxy/install_redsocks/iptables.sh stop"
 ```
+
+### 更新 .zshrc
+```
+source ~/.zshrc
+```
+
 
 
 
