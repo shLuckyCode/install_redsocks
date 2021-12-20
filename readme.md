@@ -18,21 +18,27 @@ sudo ./setup.sh
 ```
 
 ## 添加快捷命令启动
+#### zsh shell
 ```
 vim ~/.zshrc
 ```
-
+#### 默认 shell
+```
+vim ~/.bashrc
+```
 ### 增加以下内容
 ```
 alias start_proxy="sudo bash ~/proxy/install_redsocks/iptables.sh start"
 alias stop_proxy="sudo bash ~/proxy/install_redsocks/iptables.sh stop"
 ```
 
-### 更新 .zshrc
+### 更新
 ```
-source ~/.zshrc
+source ~/.zshrc 
+
+or 
+
+source ~/.bashrc
 ```
-
-
 
 
